@@ -1,4 +1,9 @@
 {
-  "excludeFiles": ["node_modules/**", "coverage/**", "tmp/**"],
+  "excludeFiles": [
+    "node_modules/**",
+    "coverage/**",
+    "tmp/**",
+    "./lib/server.js"
+  ],
   "preset": "hexo"
 }
